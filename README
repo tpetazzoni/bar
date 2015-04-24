@@ -1,0 +1,26 @@
+bar
+===
+
+A completely stupid and useless application.
+
+Building
+========
+
+ * Mandatory dependency: libfoo
+   https://github.com/tpetazzoni/libfoo
+
+ * Optional dependency: libconfig
+   http://www.hyperrealm.com/libconfig/
+
+Configuration file
+==================
+
+The configuration file must be named 'bar.cfg' and located in the
+current working directory. It can be used to specify the following
+options:
+
+ - verbose
+
+   with the value "yes", the application will enable verbose
+   mode. With any other value, the application will run in normal
+   mode.
